@@ -9,7 +9,7 @@ body{
 	justify-content: center;
 }
 /* desktop */
-@media(min-width: 390px){
+@media(min-width: 490px){
 	.main-box{
 	height: 100vh;
 	width: 100%;
@@ -26,7 +26,7 @@ body{
 }
 
 /* mobile */
-@media(max-width: 390px){
+@media(max-width: 490px){
 	.main-box{
 	height: 100vh;
 	width: 100%;
