@@ -21,7 +21,7 @@ form.addEventListener("submit", (event) => {
   let num = document.querySelector("#mobileNum").value.trim();
   console.log(num.length);
   if (num.length == 10 && !isNaN(num)) {
-    form.setAttribute("action", "https://formspree.io/f/xpwzozlo");
+    form.setAttribute("action", "https://formspree.io/f/xovqzjvr");
     form.setAttribute("method", "POST");
   } else {
     event.preventDefault();
