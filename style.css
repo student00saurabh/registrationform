@@ -59,6 +59,7 @@ form{
 }
 form input , textarea, select{
     padding: 5px;
+	margin: "5px";
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
