@@ -4,10 +4,7 @@
 	font-family: 'Times New Roman', Times, serif;
 	color: black;
 }
-body{
-	display: grid;
-	justify-content: center;
-}
+
 /* desktop */
 @media(min-width: 490px){
 	.main-box{
