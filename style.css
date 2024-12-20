@@ -4,9 +4,12 @@
 	font-family: 'Times New Roman', Times, serif;
 	color: black;
 }
-
 /* desktop */
-@media(min-width: 490px){
+@media(min-width: 390px){
+	body{
+	display: grid;
+	justify-content: center;
+}
 	.main-box{
 	height: 100vh;
 	width: 100%;
@@ -23,12 +26,12 @@
 }
 
 /* mobile */
-@media(max-width: 490px){
+@media(max-width: 390px){
 	.main-box{
 	height: 100vh;
 	width: 100%;
-	margin: 60px;
-	padding: 40px;
+	margin: 20px;
+	padding: 10px;
 	display: grid;
 	align-items: center;
 	justify-content: center;
@@ -56,9 +59,8 @@ form{
 }
 form input , textarea, select{
     padding: 5px;
-	margin: "5px";
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
+    margin-bottom: 0px;
+    border: 1.5px solid #ccc;
     border-radius: 5px;
 }
 
@@ -84,10 +86,24 @@ form input , textarea, select{
 
 input.invalid {
     border-color: red;
+	box-shadow: 0px 0px 4px red;
 	color: red;
+}
+
+input.invalid:focus{
+	border-color: red;
+	box-shadow: 0px 0px 4px red;
+	color: red;
+
 }
 
 input.valid {
     border-color: green;
+	box-shadow: 0px 0px 4px green;
+	color: green;
+}
+input.valid:focus{
+	border-color: green;
+	box-shadow: 0px 0px 4px green;
 	color: green;
 }

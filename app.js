@@ -21,7 +21,8 @@ form.addEventListener("submit", (event) => {
   let num = document.querySelector("#mobileNum").value.trim();
   console.log(num.length);
   if (num.length == 10 && !isNaN(num)) {
-    console.log("submited");
+    form.setAttribute("action", "https://formspree.io/f/xpwzozlo");
+    form.setAttribute("method", "POST");
   } else {
     event.preventDefault();
     alert("please inter 10 digits");
