@@ -29,9 +29,8 @@
 @media(max-width: 390px){
 	.main-box{
 	height: 100vh;
-	width: fit-content;
+	width: 98%;
 	margin: 10px;
-	padding: 5px;
 	display: grid;
 	align-items: center;
 	justify-content: center;
