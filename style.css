@@ -29,7 +29,7 @@
 @media(max-width: 390px){
 	.main-box{
 	height: 100vh;
-	width: 98%;
+	width: 100%;
 	margin: 10px;
 	display: grid;
 	align-items: center;
